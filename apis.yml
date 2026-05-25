@@ -1,0 +1,101 @@
+aid: mindgard
+name: Mindgard
+description: >-
+  Mindgard is a UK-based offensive AI security company (London/Lancaster,
+  spun out of Lancaster University) that provides an automated AI red-teaming
+  and security testing platform for large language models, AI agents, and
+  generative AI systems. Mindgard's platform combines AI Discovery and Recon
+  (mapping the AI attack surface and shadow AI usage), continuous AI Red
+  Teaming against evolving attacker techniques, AI Assessment, AI Runtime
+  Protection, and Model Scanning, backed by a research-led attack library
+  covering jailbreaks (ActorAttack, Crescendo, EvilConfidant, PersonGPT,
+  DevModeV2, AsciiArtAttack, AntiGPT), prompt-injection techniques
+  (Ascii85, AnsiEscaped, AnsiRaw and others), and policy/violation
+  testing (MaliciousGeneration, PromptAlignment). Developers and security
+  teams integrate Mindgard via a public REST API (projects, tests,
+  multi-turn tests, datasets, findings, reconnaissance), a Python CLI
+  (`pip install mindgard`), a Python SDK, a Burp Suite extension, and a
+  GitHub Action for adding red-team checks to MLOps pipelines. The company
+  also maintains and contributes to open-source security tooling including
+  PyRIT integrations, an OpenAI-compatible LLM-Guard proxy, a chatbot API
+  wrapper for testing web chatbots, and proof-of-concept vulnerability
+  demonstrations (document RCE in LangChain agents, hidden audio jailbreaks,
+  prompt-jailbreak demos). Mindgard's commercial model is enterprise SaaS
+  with platform and services tiers; pricing is gated behind a sales
+  conversation, and the platform is positioned for security, AppSec, and
+  AI governance teams testing customer-facing or internally deployed
+  AI systems.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI Security
+  - AI Red Teaming
+  - LLM Security
+  - Generative AI Security
+  - Prompt Injection
+  - Jailbreak Testing
+  - AI Discovery
+  - AI Runtime Protection
+  - Model Scanning
+  - AI Governance
+  - Offensive Security
+  - MLOps
+url: https://raw.githubusercontent.com/api-evangelist/mindgard/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://mindgard.ai
+  - type: Platform
+    url: https://mindgard.ai/platform
+  - type: Documentation
+    url: https://docs.mindgard.ai
+  - type: APIReference
+    url: https://docs.mindgard.ai/api-reference/projects/list-projects
+  - type: CLIReference
+    url: https://docs.mindgard.ai/user-guide/cli-reference
+  - type: PythonSDK
+    url: https://docs.mindgard.ai/user-guide/python-sdk
+  - type: AttackLibrary
+    url: https://docs.mindgard.ai/attack-library/jailbreaks/overview
+  - type: RemediationLibrary
+    url: https://docs.mindgard.ai/remediation-library/anonymization-of-data
+  - type: WorkflowIntegrations
+    url: https://docs.mindgard.ai/user-guide/workflow-integrations
+  - type: EnterpriseSetup
+    url: https://docs.mindgard.ai/user-guide/enterprise-setup
+  - type: GitHub
+    url: https://github.com/Mindgard
+  - type: PyPI
+    url: https://pypi.org/project/mindgard/
+  - type: BurpExtension
+    url: https://github.com/Mindgard/mindgard-burp-extension
+  - type: GitHubAction
+    url: https://github.com/Mindgard/mindgard-github-action-example
+  - type: Research
+    url: https://mindgard.ai/blog
+  - type: Customers
+    url: https://mindgard.ai/customers
+  - type: Disclosures
+    url: https://mindgard.ai/disclosures
+  - type: Services
+    url: https://mindgard.ai/services
+  - type: AIAcademy
+    url: https://mindgard.ai/ai-academy
+  - type: Careers
+    url: https://mindgard.ai/careers
+  - type: Contact
+    url: https://mindgard.ai/contact
+  - type: About
+    url: https://mindgard.ai/about
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/mindgard
+  - type: Twitter
+    url: https://twitter.com/mindgardai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
