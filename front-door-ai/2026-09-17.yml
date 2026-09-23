@@ -1,0 +1,31 @@
+# Front Door AI Index — mindgard — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mindgard
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: mindgard.ai
+  final_host: mindgard.ai
+  ownership: own
+  owner: mindgard
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 59
+  host_score: 59
+  density: 85.63
+  words: 689
+  tiers:
+    agentic: 8
+    core: 48
+    model: 3
+  ambiguous: 17
+  top_terms:
+    AI: 48
+    agent: 16
+    AI agent: 4
+    prompts: 4
+    OpenAI: 2
+    ChatGPT: 1
+    intelligence: 1
