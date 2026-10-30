@@ -1,4 +1,4 @@
-# mindgard
+# Mindgard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mindgard — automated AI red-teaming and security testing platform for LLMs and AI agents (UK)
+Mindgard is a UK-based offensive AI security company (London/Lancaster, spun out of Lancaster University) that provides an automated AI red-teaming and security testing platform for large language models, AI agents, and generative AI systems. Mindgard's platform combines AI Discovery and Recon (mapping the AI attack surface and shadow AI usage), continuous AI Red Teaming against evolving attacker techniques, AI Assessment, AI Runtime Protection, and Model Scanning, backed by a research-led attack library covering jailbreaks (ActorAttack, Crescendo, EvilConfidant, PersonGPT, DevModeV2, AsciiArtAttack, AntiGPT), prompt-injection techniques (Ascii85, AnsiEscaped, AnsiRaw and others), and policy/violation testing (MaliciousGeneration, PromptAlignment). Developers and security teams integrate Mindgard via a public REST API (projects, tests, multi-turn tests, datasets, findings, reconnaissance), a Python CLI (`pip install mindgard`), a Python SDK, a Burp Suite extension, and a GitHub Action for adding red-team checks to MLOps pipelines. The company also maintains and contributes to open-source security tooling including PyRIT integrations, an OpenAI-compatible LLM-Guard proxy, a chatbot API wrapper for testing web chatbots, and proof-of-concept vulnerability demonstrations (document RCE in LangChain agents, hidden audio jailbreaks, prompt-jailbreak demos). Mindgard's commercial model is enterprise SaaS with platform and services tiers; pricing is gated behind a sales conversation, and the platform is positioned for security, AppSec, and AI governance teams testing customer-facing or internally deployed AI systems.
+
+**Areas:** AI Security · AI Red Teaming · LLM Security · Generative AI Security · Prompt Injection · Jailbreak Testing · AI Discovery · AI Runtime Protection · Model Scanning · AI Governance · Offensive Security · MLOps
+
+## Mindgard on APIs.io
+
+Everything profiled for Mindgard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mindgard/](https://apis.io/providers/mindgard/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mindgard Domain Security](https://apis.io/security/mindgard/mindgard-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mindgard.ai)
+- [Documentation](https://docs.mindgard.ai)
+- [API reference](https://docs.mindgard.ai/api-reference/projects/list-projects)
+- [Blog](https://mindgard.ai/blog)
+
+## API Evangelist rating
+
+**Kin Score 7.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mindgard/](https://apis.io/providers/mindgard/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mindgard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mindgard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
